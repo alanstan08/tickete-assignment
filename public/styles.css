@@ -1,0 +1,671 @@
+.AllElements{
+    margin-left: 120px;
+    width: 500px;
+    
+}
+.TopPart {
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
+}
+.MiddlePart {
+    display: flex;
+    gap: 80px;
+    margin-bottom: 220px;
+    flex-direction: row;
+}
+/* Header.jsx styling */
+.headContainer {
+    display: flex;
+    gap:1000px
+}
+
+.headContainer h1 {
+    width: 76px;
+    height: 24px;
+    /* flex-shrink: 0; */
+    
+    margin-top: 24px;
+    
+}
+.Help {
+    
+    width: 59;
+    height: 20; 
+    display: flex;  
+}
+.Help img {
+    padding-top: 18px ;
+    width: 20px;
+    height: 15px;
+}
+.headContainer {
+    width: 1280px;
+    height: 72px;
+    flex-shrink: 0;
+    background: var(--brand-ghost-white, #FFF);
+    
+}
+/* 
+
+Details
+
+*/
+.ConfirmPay {
+
+    flex-wrap: wrap;
+    width: 792px;
+    gap: 24px;
+}
+.TwoHeadings {
+    width: 714px;
+    height: 62px;
+    gap: 6px;
+    margin-bottom: 32px;
+}
+.ConfirmPay h1 {
+    width: 792px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* Display/Large */
+    font-family: Open Sans;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px; /* 116.667% */
+    letter-spacing: -0.96px;
+    margin-bottom: 64;
+    margin-top: 0px;
+    
+}
+
+.ConfirmPay h2 {
+    color: var(--grayscale-g-2, #474747);
+
+    /* Heading/Large */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    width: 666px;
+    margin-bottom: 6px;
+}
+.ConfirmPay p {
+    color: var(--grayscale-g-3, #595959);
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    width: 714px;
+    margin-top: 0px;
+    
+}
+.InputContainer {
+    display: grid;
+    width: 792px;
+    height: 160px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+.ConfirmPay input {
+    width: 384px;
+    height: 60px;
+    
+    border-radius: 12px;
+    border: 1px solid var(--grayscale-g-6, #D6D6D6);
+    background: var(--brand-ghost-white, #FFF);
+}
+/* 
+AdditonalInfo.jsx
+
+
+*/
+
+.Info {
+    width: 792px;
+    height: 162px;
+}
+.Info > h1 {
+    width: 666px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* Heading/Large */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    margin-bottom: 6px;
+}
+.Info h1+p {
+    width: 714px;
+    color: var(--grayscale-g-3, #595959);
+    /* Paragraph/Medium */
+    font-family: Open Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 160% */
+    margin-top: 0px;
+    margin-bottom: 32px;
+    }
+.Info input{
+    width: 384px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid var(--grayscale-g-6, #D6D6D6);
+    background: var(--brand-ghost-white, #FFF);
+}
+.Info select {
+    width: 384px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid var(--grayscale-g-6, #D6D6D6);
+    background: var(--brand-ghost-white, #FFF);
+}
+.InfoAdd {
+    display: flex;
+    gap: 12px;
+}
+.PaymentContainer {
+    width: 792px;
+    height: 398px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+}
+.PaymentContainer input {
+    width: 384px;
+    height: 60px;
+    border-radius: 12px;
+    border: 1px solid var(--grayscale-g-6, #D6D6D6);
+    background: var(--brand-ghost-white, #FFF);
+ }
+ .PaymentContainer option {
+    width: 701px;
+    color: var(--grayscale-g-2, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    margin-bottom: 24px;
+ }
+.PayementCart h1{
+    color: var(--grayscale-g-2, #474747);
+
+    /* Heading/Regular */
+    font-family: Open Sans;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px; /* 127.273% */
+    letter-spacing: -0.44px;
+    
+}
+.PayementCart h1 + p{
+    color: var(--grayscale-g-3, #595959);
+
+    /* UI/Small/Underline */
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px; /* 133.333% */
+    text-decoration-line: underline;
+    margin-bottom: 22px;
+    }
+/* 
+
+Payment.jsx style
+
+*/
+
+.Notification {
+    width: 792px;
+    height: 50px;
+    border-radius: 8px;
+    background: var(--grayscale-g-8, #F5F5F5);
+    padding-top: 16px;
+
+} 
+.Notification label {
+    width: 347px;
+    height: 18.015px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* Sub-heading/Small */
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 150% */
+}
+.TermsAndConditions {
+    color: var(--grayscale-g-3, #595959);
+
+    /* Paragraph/Small/Regular */
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 166.667% */
+}
+.TermsAndConditions span {
+    color: var(--blue-crayola-9, #1733B6);
+
+    /* Paragraph/Small/Regular */
+    font-family: Open Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.ConfirmAndPay{
+    width: 157px;
+    height: 48px;
+    padding: 0px 20px 1px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 12px;
+    background: var(--brand-fogra-39-black, #0A0A0A);
+    margin-bottom: 24px;
+}
+.ConfirmAndPay button {
+    color: var(--grayscale-g-9, #F6F6F7);
+    margin-top: 12px;
+    /* Button/Medium */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    background: var(--brand-fogra-39-black, #0A0A0A);
+    border-radius: 12px;
+    box-shadow: none;
+    
+}
+.BorderLine {
+    width: 1200px;
+    height: 1px; 
+    background: #D6D6D6;   
+    
+}
+/*
+
+
+
+Faq.jsx 
+
+
+
+*/
+.BorderLineSmall{
+    width: 714px;
+    height: 1px;
+    background: #D6D6D6;
+}
+
+.FaqContainer {
+    width: 1000px;
+    height: 1232;
+    
+}
+.FaqSubContainer {
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+    
+}
+.FaqSecondColumn img {
+    width : 48px;
+    height: 48px;
+    padding-left:102px ;
+    background-color: var(--pumpkin-1, #FFF7ED) ;
+}
+.FaqSecondColumn {
+    width: 200px;
+    height: 188px;
+    border-radius: 12px;
+background: var(--pumpkin-1, #FFF7ED);
+}
+
+
+.FaqContainer h1 {
+    width: 714px;
+    color: var(--grayscale-g-2, #474747);
+    /* Heading/Large */
+    font-family: Open Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px; /* 133.333% */
+    letter-spacing: -0.48px;
+}
+.FaqContainer h2 {
+    width: 666px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* Heading/Small */
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;
+}
+.FaqContainer p {
+    width: 666px;
+    color: var(--grayscale-g-3, #595959);
+
+    /* Paragraph/Medium/Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.FaqContainer button {
+    background-color: var(--brand-ghost-white, #FFF);
+    border-radius: 12px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.TicketPromise {
+    display: flex;
+    width: 1200px;
+    height: 264px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 24px;
+    
+}
+.TicketPromise div {
+    width: 282px;
+    height: 200px;
+    border-radius: 12px;
+    border: 1px solid var(--grayscale-g-6, #D6D6D6);
+    background: var(--brand-ghost-white, #FFF);
+    padding-left: 20px;
+    padding-top: 16px;
+}   
+.TicketPromise h1 {
+    width: 242px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* UI/Medium/Heavy */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+    margin-top: 46px;
+}
+.TicketPromise p {
+    width: 242px;
+    color: var(--grayscale-g-3, #595959);
+
+    /* Paragraph/Medium */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+.TicketPromise img {
+    width: 48px;
+    height: 48px;
+    
+}
+/* 
+
+
+Footer.jsx style 
+
+
+
+*/
+.FinalElements {
+    display: flex;
+    gap: 12px;
+    
+}
+.EndContainer {
+    width: 1440px;
+    height: 278px;
+    background: var(--brand-fogra-39-black, #0A0A0A);
+}
+.EndContainer h1{
+    width: 126.667px;
+    height: 40px;
+    color: #FFFFFF;
+    padding-top: 66px;
+    padding-bottom: 80px;
+    padding-left: 120px;
+}
+
+.EndContainer p {
+    color: var(--grayscale-g-7, #EBEBEB);
+
+    /* UI/Medium/Underline */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    text-decoration-line: underline;
+    padding-top: 32px ;
+    
+}
+
+
+
+/* 
+
+
+
+FinalTicket.jsx  
+
+
+
+
+styling */
+.Ticket > img{
+    width: 360px;
+    height: 230px;
+    border-radius: 12px;
+
+}
+.TicketImage img {
+    
+    width: 24px;
+    height: 24px;
+}
+.CalendarImage img {
+    
+    width: 24px;
+    height: 24px;
+}
+.TimeImage img {
+    
+    width: 24px;
+    height: 24px;
+}
+.Ticket {
+    width: 360px;
+    height: 438px;
+}
+.Ticket h1{
+    width: 360px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* Heading/Small */
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;    
+}
+.Ticket p {
+    color: var(--grayscale-g-2, #474747);
+
+    /* UI/Medium/Heavy */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+}
+
+
+
+/* 
+
+
+
+Ticket Overview
+
+
+
+
+*/
+.FullArea {
+    width: 360;
+    height: 440;
+
+}
+.FirstArea {
+    width: 360;
+}
+.FullArea h1 {
+    width: 360px;
+    color: var(--grayscale-g-2, #474747);
+    /* Heading/Small */
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 26px; /* 144.444% */
+    letter-spacing: -0.36px;
+}
+
+
+/* TicketOverview.jsx */
+.BorderTiny {
+    width: 360px;
+    height: 1px;
+    background: #D6D6D6;
+}
+.FirstArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 252px;
+
+}
+
+
+.ColumnOne p {
+    width: 252px;
+    color: var(--grayscale-g-2, #474747);
+
+    /* UI/Medium/Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+}
+.ColumnTwo p{
+    width: 100px;
+    color: var(--grayscale-g-2, #474747);
+    
+
+    /* UI/Medium/Regular */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    margin-bottom: 0px;
+    margin-top: 19px;
+}
+.SecondArea {
+    width: 360px;
+    height: 72px;
+    border-radius: 8px;
+    background: var(--brand-ghost-white, #FFF);
+    color: green;
+}
+
+.ThirdArea {
+    display: flex;
+    width: 360px;
+    gap: 45px;
+    
+
+}
+.FirstColumn h2 {
+    width: 252px;
+    color: var(--grayscale-g-2, #474747);
+    /* UI/Medium/Heavy */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+
+}
+.FirstColumn p {
+    color: var(--grayscale-g-3, #595959);
+
+/* UI/Small/Underline */
+font-family: Open Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 16px; /* 133.333% */
+text-decoration-line: underline;
+}
+
+.SecondColumn p {
+    width: 100px;
+    color: var(--grayscale-g-2, #474747);
+    text-align: right;
+    /* UI/Medium/Heavy */
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 125% */
+}
+.FourthArea {
+    width: 320px;
+    height: 42px;
+    border-radius: 12px;
+}
+.FourthArea div{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    background: var(--grayscale-g-8, #F5F5F5);
+}
+
+@media screen and (max-width: 393px){
+    .AllElements {
+        display:table;
+        width: 373px;
+    }
+    
+}
